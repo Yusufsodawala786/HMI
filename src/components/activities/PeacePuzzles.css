@@ -1,0 +1,10 @@
+.jigsaw-puzzle{
+    height: 100% !important;
+    aspect-ratio: 1/1 !important;
+    background-color: white;
+    border: 2px black solid;
+}
+.jigsaw-puzzle__piece--solved{
+    border: none;
+    outline: none;
+}

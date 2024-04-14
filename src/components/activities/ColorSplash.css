@@ -1,0 +1,15 @@
+.circle-picker{
+    width: 90% !important;
+    gap: 10px !important;
+    background-color: brown;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding: 2rem;
+    border-radius: 30px;
+    background-image: url('../../assets/colorpalette.jpg');
+    border: 3px black solid !important;
+    overflow: hidden;
+}
+.circle-picker span div span div {
+    border: 3px black solid !important;
+}

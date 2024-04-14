@@ -1,0 +1,14 @@
+.anger-bg{
+    background-image: url('../../assets/angerbg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.anxiety-bg{
+    background-image: url('../../assets/anxietybg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
