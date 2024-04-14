@@ -24,8 +24,8 @@ const Home = () => {
             </div>
             <div className='text-4xl text-center px-12 font-open-sans leading-10'>We'll help you tame your anger monster and say goodbye to anxiety!</div>
             <div className='flex gap-6'>
-                <Button as={Link} href='/learn' showAnchorIcon  className='p-8 bg-slate-900 text-white text-3xl font-semibold'>
-                    Learn More
+                <Button as={Link} href='/connect' showAnchorIcon  className='p-8 bg-slate-900 text-white text-3xl font-semibold'>
+                    Connect With Us!
                 </Button>
                 <Button as={Link} href='/activities' showAnchorIcon  className='p-8 bg-slate-900 text-white text-3xl font-semibold'>
                     Fun & Games                

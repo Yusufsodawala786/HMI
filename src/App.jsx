@@ -8,6 +8,7 @@ import ColorSplash from "./components/activities/ColorSplash"
 import PeacePuzzles  from "./components/activities/PeacePuzzles"
 import BurstBliss from "./components/activities/BurstBliss"
 import Printables from "./components/printables/Printables"
+import Connect from "./components/connect/connect"
 
 const router = createBrowserRouter([
   {
@@ -42,7 +43,10 @@ const router = createBrowserRouter([
       {
         path:'printables',
         element:<Printables />
-      
+      },
+      {
+        path:'connect',
+        element:<Connect />
       }
     ]
   }
