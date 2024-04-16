@@ -83,18 +83,20 @@ const ColorSplash = () => {
                     circleSize={40}
                     circleSpacing={10}
                     colors={[
-                        "#000000", "#111111", "#222222", "#333333", "#444444",
-                        "#555555", "#666666", "#777777", "#888888", "#999999",
-                        "#FF0000", "#FF3333", "#FF6666", "#FF9999", "#FFCCCC",
-                        "#00FF00", "#33FF33", "#66FF66", "#99FF99", "#CCFFCC",
-                        "#0000FF", "#3333FF", "#6666FF", "#9999FF", "#CCCCFF",
-                        "#FFFF00", "#FFFF33", "#FFFF66", "#FFFF99", "#FFFFCC",
-                        "#800080", "#9932CC", "#8A2BE2", "#9370DB", "#BA55D3",
-                        "#FFA500", "#FF9933", "#FF8C00", "#FF7F50", "#FF6347",
-                        "#00FFFF", "#33FFFF", "#66FFFF", "#99FFFF", "#CCFFFF",
-                        "#FFC0CB", "#FF69B4", "#FF1493", "#DB7093", "#FFB6C1",
-                        "#808000", "#008000", "#008080", "#000080", "#AAAAAA", 
-                        "#BBBBBB", "#CCCCCC", "#DDDDDD", "#EEEEEE", "#FFFFFF"
+                        "Black", "White", "Gray", "Silver", "DarkGray",
+"Red", "Maroon", "Crimson", "Tomato", "FireBrick",
+"Orange", "DarkOrange", "Coral", "Gold", "DarkGoldenrod",
+"Yellow", "LemonChiffon", "Gold", "Khaki", "DarkKhaki",
+"Green", "Lime", "ForestGreen", "Olive", "DarkOliveGreen",
+"Blue", "Navy", "RoyalBlue", "DodgerBlue", "SteelBlue",
+"Purple", "Indigo", "MediumPurple", "BlueViolet", "DarkOrchid",
+"Pink", "HotPink", "DeepPink", "LightPink", "PaleVioletRed",
+"Turquoise", "MediumTurquoise", "LightSeaGreen", "CadetBlue", "DarkCyan",
+"Teal", "DarkSlateGray", "Aquamarine", "MediumAquamarine", "MediumSpringGreen",
+"Brown", "SaddleBrown", "Sienna", "Chocolate", "Peru",
+"Violet", "Plum", "Orchid", "Magenta", "MediumOrchid",
+"Lavender", "Thistle", "MediumSlateBlue", "SlateBlue", "DarkSlateBlue"
+
                     ]}  
                 />
                 <Button onClick={download} isLoading={isDownloading} className="bg-slate-900 text-3xl p-9 text-white">

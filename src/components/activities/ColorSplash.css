@@ -13,3 +13,6 @@
 .circle-picker span div span div {
     border: 3px black solid !important;
 }
+.circle-picker span div span div:focus {
+    border: 10px black solid !important;
+}

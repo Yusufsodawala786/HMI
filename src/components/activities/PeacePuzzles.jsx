@@ -6,7 +6,10 @@ import { JigsawPuzzle } from 'react-jigsaw-puzzle';
 import "react-jigsaw-puzzle/lib/jigsaw-puzzle.css"
 import './PeacePuzzles.css'
 import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure, Image} from "@nextui-org/react";
+import congrats from '../../assets/congrats.json'
+import Lottie from 'lottie-react';
 
+import audio from '../../assets/audio.mp3'
 const images = [jigsaw1, jigsaw2, jigsaw3]
 
 const PeacePuzzles = () => {
@@ -41,6 +44,8 @@ const PeacePuzzles = () => {
 
     const handleCompletion = () => {
         stopTimer();
+        const audioToBePlayed = new Audio(audio)
+        audioToBePlayed.play()
         onOpen()
     }
     return (
@@ -86,9 +91,10 @@ const PeacePuzzles = () => {
             <ModalContent>
             {(onClose) => (
                 <>
-                <ModalHeader className="flex flex-col gap-1">Congratulations!!</ModalHeader>
+                <ModalHeader className="flex flex-col gap-1">You Completed the puzzle!!</ModalHeader>
                 <ModalBody>
-                    <Image src={images[currentPuzzle]} alt="puzzle" width={300} height={300} />
+                    {/* <Image src={images[currentPuzzle]} alt="puzzle" width={300} height={300} /> */}
+                    <Lottie animationData={congrats} />
                     <p>You have successfully completed the puzzle</p>
                     <p>Time Taken: {formatTime(timer)}</p>
                 </ModalBody>
