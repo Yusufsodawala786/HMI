@@ -1,8 +1,14 @@
-# React + Vite
+# Calm Zone
+To Help Autistic Children understand and manage emotions like anger and anxiety.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![image](https://github.com/Yusufsodawala786/HMI-mini-project/assets/105378102/75cb3c69-dc09-444a-b14e-bbe616007188)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Steps to run the project
+```
+$ git clone https://github.com/Yusufsodawala786/HMI-mini-project.git
+$ cd HMI-mini-project
+$ npm install
+$ npm run dev
+
+```
